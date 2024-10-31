@@ -1,0 +1,49 @@
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffc017;
+    border-bottom: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header2{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    background-color: #ffc017;
+}
+.header2.svg{
+    width: 33%;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.div-top{
+    display: flex;
+    flex-direction: row;
+}
+.div-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+.mini-box{
+    display: flex;
+    align-items: center
+    ;}
