@@ -219,6 +219,8 @@ h1{
 gap: 10px;
 }
 .text-footer button{
+    font-family: "Roboto", sans-serif;
+    color: #757575;
     border-style: none;
     border-radius: 10px;
     padding: 5px;
@@ -316,6 +318,20 @@ gap: 10px;
     }
     .section1{
         padding-left: 4%;
+    }
+    .star{
+        display: none;
+    }
+    .star-align{
+        display: block;
+    }
+    .version2{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .dot{
+        display: none;
     }
 
     .div-bottom{
@@ -452,6 +468,102 @@ gap: 10px;
         }
         .svg {
             padding-top: 0;
+        }
+        .box{
+            width: 50%;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        .star{
+            display: none;
+            width: 0px;
+        }
+        .star-align{
+            display: block;
+        }
+        .version2{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .dot{
+            display: none;
+        }
+        .section2{
+            flex-direction: column-reverse;
+        }
+        .button-set{
+            margin-top: 4%;
+            margin-bottom: 4%;
+    
+        }
+        .article {
+            display: flex;
+            flex-direction: row; 
+            align-items: center;
+            border-bottom: 1px solid #e6e7e7; 
+        }
+    
+        .article-img {
+            padding: 0;
+            width: 200px; 
+            height: 145px;
+            flex-shrink: 0; 
+            object-fit: cover; 
+        }
+    
+        .text-box {
+            flex: 1; 
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+           padding-right: 3%;
+            min-width: 200px;
+        }
+        .text-title{
+            gap: 5px;
+        }
+    
+        .text-title h4 {
+            font-size: 10px;
+            margin: 0;
+        }
+    
+        .text-box h2 {
+            font-size: 17px;
+            line-height: 1.3;
+            margin: 5px 0;
+           /*  white-space: nowrap; */ 
+            overflow: hidden;
+            text-overflow: ellipsis; 
+        }
+    
+        .text-box p {
+            font-size: 13px;
+            color: #757575;
+            line-height: 1.4;
+            margin: 5px 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2; 
+        }
+    
+        .text-footer {
+            font-size: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        .text-footer button{
+            font-size: 12px;
+            border-style: none;
+            border-radius: 10px;
+            padding: 5px;
+            padding-left: 7px;
+            padding-right: 7px;
         }
 
     }
