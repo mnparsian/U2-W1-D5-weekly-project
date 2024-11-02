@@ -6,27 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <title>Medium</title>
   </head>
 
   <body>
-    <header>
-      <div class="header1">
-        <img src="./assets/imgs/svg/logo.svg" alt="" />
-        <nav class="menu">
-          <div class="a">Our Story</div>
-          <div class="a">Membership</div>
-          <div class="a">Write</div>
-          <div class="a">Sign In</div>
-          <button>Get started</button>
-        </nav>
-      </div>
-
+    <header1 class="header1 black">
+      <img src="./assets/imgs/svg/logo.svg" alt="" />
+      <nav class="menu">
+        <a class="hide-mobile" href="">Our Story</a>
+        <a class="hide-mobile" href="">Membership</a>
+        <a class="hide-mobile" href="">Write</a>
+        <a href="">Sign In</a>
+        <button class="header-button">Get started</button>
+      </nav>
+    </header1>
+    <header class="black">
       <div class="header2">
-        <div>
+        <div class="header2-left">
           <h1>Stay Curious.</h1>
           <p>Discover stories, thinking, and expertise from writers on any topic</p>
-          <button>Start reading</button>
+          <button class="header-button">Start reading</button>
         </div>
 
         <div class="svg">
@@ -8068,11 +8073,11 @@
           <p>01</p>
           <div>
             <div class="mini-box">
-              <img src="./assets/imgs/image01.jpeg" alt="" />
-              <span>Tom Cooper</span>
+              <img class="icon2" src="./assets/imgs/image01.jpeg" alt="" />
+              <h5>Tom Cooper</h5>
             </div>
             <h3>Ukraine War, 23 October 2022</h3>
-            <span>Oct 23·5 min read</span>
+            <span class="box-footer">Oct 23·5 . min read</span>
           </div>
         </div>
 
@@ -8080,11 +8085,11 @@
             <p>02</p>
             <div>
               <div class="mini-box">
-                <img src="./assets/imgs/image02.png" alt="" />
-                <span>Arthur Hayes in Entrepreneur's Handbook</span>
+                <img class="icon" src="./assets/imgs/image02.png" alt="" />
+                <h5>Arthur Hayes in Entrepreneur's Handbook</h5>
               </div>
               <h3>Comeback</h3>
-              <span>Oct 26·24 min read</span>
+              <span class="box-footer">Oct 26·24 . min read</span>
             </div>
           </div>
 
@@ -8092,11 +8097,11 @@
             <p>03</p>
             <div>
               <div class="mini-box">
-                <img src="./assets/imgs/image03.jpeg" alt="" />
-                <span>Tom Cooper</span>
+                <img class="icon" src="./assets/imgs/image03.jpeg" alt="" />
+                <h5>Tom Cooper</h5>
               </div>
               <h3>How I Learned to Love My Breasts Even Though One Is A Horcrux For Voldemort</h3>
-              <span>Oct 26·2 min read</span>
+              <span class="box-footer">Oct 26·2 . min read</span>
             </div>
           </div>
 
@@ -8104,11 +8109,14 @@
             <p>04</p>
             <div>
               <div class="mini-box">
-                <img src="./assets/imgs/image04.png" alt="" />
-                <span>Frank Mastropolo in The Riffk</span>
+                <img class="icon" src="./assets/imgs/image04.png" alt="" />
+                <h5>Frank Mastropolo in The Riffk</h5>
               </div>
               <h3>The Night Paul McCartney Donned a Disguise at Fillmore East</h3>
-              <span>Oct 22·3 min read</span>
+              <div class="star-align">
+                <span class="box-footer">Oct 22·3 . min read</span>
+                <img src="./assets/imgs/svg/star.svg" alt="">
+            </div>
             </div>
           </div>
 
@@ -8116,11 +8124,14 @@
             <p>05</p>
             <div>
               <div class="mini-box">
-                <img src="./assets/imgs/image05.jpeg" alt="" />
-                <span>Frank Andrade in Towards Data Science</span>
+                <img class="icon" src="./assets/imgs/image05.jpeg" alt="" />
+                <h5>Frank Andrade in Towards Data Science</h5>
               </div>
               <h3>5 Python Projects to Automate Your Life: From Beginner to Advanced</h3>
-              <span>Oct 13·6 min read</span>
+              <div class="star-align">
+                <span class="box-footer">Oct 13·6 . min read</span>
+               <img src="./assets/imgs/svg/star.svg" alt="">
+              </div>
             </div>
           </div>
 
@@ -8128,15 +8139,195 @@
             <p>06</p>
             <div>
               <div class="mini-box">
-                <img src="./assets/imgs/image06.png" alt="" />
-                <span>Wesley Smits in JavaScript in Plain English</span>
+                <img class="icon" src="./assets/imgs/image06.png" alt="" />
+                <h5>Wesley Smits in JavaScript in Plain English</h5>
               </div>
               <h3>How To Make Visual Studio Code Look Amazing</h3>
-              <span>Oct 20·7 min read</span>
+              <div class="star-align">
+              <span class="box-footer">Oct 20·7 . min read</span>
+              <img src="./assets/imgs/svg/star.svg" alt="">
+            </div>
             </div>
           </div>
         </div>
       </section>
+      <section class="section2">
+        <div class="leftSide">
+          <div class="article">
+            <div class="text-box">
+              <div class="text-title">
+                <img class="icon2" src="./assets/imgs/image07.jpeg" alt="">
+                <h4>Robert Roy Britt</h4>
+              </div>
+              <h2> How Old is Old?</h2>
+              <p>What we consider “old” changes dramatically with age, and our perspectives can be predictive of how well we age</p>
+              <div class="text-footer">
+                <span>Oct 27 · 5 min read ·<button>Aging</button><img src="./assets/imgs/svg/star.svg" alt=""></span>
+                <img src="./assets/imgs/svg/bookmark.svg" alt="">
+              </div>
+            </div>
+            <img class="article-img" src="./assets/imgs/image08.jpeg" alt="">
+          </div>
+          <div class="article">
+            <div class="text-box">
+              <div class="text-title">
+                <img class="icon2" src="./assets/imgs/image09.jpeg" alt="">
+                <h4>Taru Anniina Liikanen</h4>
+              </div>
+              <h2>Is Taylor Swift Allowed to Speak About Fat?</h2>
+              <p>Can you speak about your trauma if you don't look traumatized?</p>
+              <div class="text-footer">
+                <span>Oct 27 · 5 min read ·<button>Aging</button><img src="./assets/imgs/svg/star.svg" alt=""></span>
+                <img src="./assets/imgs/svg/bookmark.svg" alt="">
+              </div>
+            </div>
+            <img class="article-img" src="./assets/imgs/image10.jpeg" alt="">
+          </div>
+          <div class="article">
+            <div class="text-box">
+              <div class="text-title">
+                <img class="icon2" src="./assets/imgs/image11.jpeg" alt="">
+                <h4>David Rodenas, Ph. D.</h4>
+              </div>
+              <h2>Don’t Screw Up, You Will Be Found Guilty</h2>
+              <p>Software Engineer, yours is the right to produce high-quality work at all times, also the liability.</p>
+              <div class="text-footer">
+                <span>Oct 15 · 5 min read ·<button>Software Engineering </button><img src="./assets/imgs/svg/star.svg" alt=""></span>
+                <img src="./assets/imgs/svg/bookmark.svg" alt="">
+              </div>
+            </div>
+            <img class="article-img" src="./assets/imgs/image12.png" alt="">
+          </div>
+          <div class="article">
+            <div class="text-box">
+              <div class="text-title">
+                <img class="icon2" src="./assets/imgs/image13.png" alt="">
+                <h4>Microsoft Design</h4>
+              </div>
+              <h2>Leave No Trace</h2>
+              <p>How product designers can break from the status quo and help our planet</p>
+              <div class="text-footer">
+                <span>Oct 25 · 11 min read ·<button>Sustainability </button></span>
+                <img src="./assets/imgs/svg/bookmark.svg" alt="">
+              </div>
+            </div>
+            <img class="article-img" src="./assets/imgs/image14.png" alt="">
+          </div>
+          <div class="article">
+            <div class="text-box">
+              <div class="text-title">
+                <img class="icon2" src="./assets/imgs/image15.jpeg" alt="">
+                <h4>Scott H. Young</h4>
+              </div>
+              <h2>Variability, Not Repetition, is the Key to Mastery</h2>
+              <p>Bruce Lee is reported to have said, “I fear not the man who has practiced 10,000 kicks once, but the man who has practiced one kick 10,000...</p>
+              <div class="text-footer">
+                <span>Oct 26 · 7 min read · <button>Health</button><img src="./assets/imgs/svg/star.svg" alt=""></span>
+                <img src="./assets/imgs/svg/bookmark.svg" alt="">
+              </div>
+            </div>
+            <img class="article-img" src="./assets/imgs/image16.jpg" alt="">
+          </div>
+          <div class="article">
+            <div class="text-box">
+              <div class="text-title">
+                <img class="icon2" src="./assets/imgs/image17.png" alt="">
+                <h4>Paul A. DeStefanoin Human Parts</h4>
+              </div>
+              <h2>What I Overheard as an Escape Room Actor</h2>
+              <p>Lock a group of people in a room and you’ll witness some surprising confessions</p>
+              <div class="text-footer">
+                <span>Jan 18, 2020 · 6 min read · <button>Experiences</button><img src="./assets/imgs/svg/star.svg" alt=""></span>
+                <img src="./assets/imgs/svg/bookmark.svg" alt="">
+              </div>
+            </div>
+            <img class="article-img" src="./assets/imgs/image18.jpeg" alt="">
+          </div>
+          <div class="article">
+            <div class="text-box">
+              <div class="text-title">
+                <img class="icon2" src="./assets/imgs/image19.jpeg" alt="">
+                <h4>Kim Scott</h4>
+              </div>
+              <h2>6 Steps for Setting Measurable Goals to Avoid “Productivity Paranoia”</h2>
+              <p>With more people working in remote and hybrid environments than ever before, company, team and individual goals must be explicit and…</p>
+              <div class="text-footer">
+                <span>Oct 24 · 6 min read · <button>Health</button><img src="./assets/imgs/svg/star.svg" alt=""></span>
+                <img src="./assets/imgs/svg/bookmark.svg" alt="">
+              </div>
+            </div>
+            <img class="article-img" src="./assets/imgs/image20.jpg" alt="">
+          </div>
+        </div>
+        
+        <div class="rightSide">
+          <h4>Discover more of what matters to you</h4>
+          <div class="button-set">
+           <button>Programming</button>
+           <button>Data Science</button>
+           <button>Technology</button>
+           <button>Self Improvement</button>
+           <button>Writing</button>
+           <button>Relationships</button>
+           <button>Machine Learning</button>
+           <button>Productivity</button>
+           <button>Politics</button>
+          </div>
+          <nav>
+            <a href="">Help</a>
+            <a href="">Status</a>
+            <a href="">Writers</a>
+            <a href="">Blog</a>
+            <a href="">Careers</a>
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">About</a>
+            <a href="">Knowable</a>
+          </nav>
+
+        </div>
+      </section>
     </main>
   </body>
+  <script>
+
+
+const header1 = document.getElementsByClassName("header1")[0];
+const main = document.getElementsByTagName("main")[0];
+const headerButton = document.getElementsByClassName("header-button")[0];
+
+window.addEventListener("scroll", () => {
+    const mainPosition = main.getBoundingClientRect().top;
+
+    if (mainPosition <= 0) {
+        header1.classList.add("fade-in");
+        headerButton.style.backgroundColor = "#1a8917"; 
+        headerButton.style.color = "#FFFFFF"; 
+    } else {
+        header1.classList.remove("fade-in");
+        headerButton.style.backgroundColor = "#191919"; 
+        headerButton.style.color = "#FFFFFF"; 
+    }
+});
+
+
+
+
+const svgLetters = document.querySelectorAll("svg path");
+
+
+function toggleSingleLetter() {
+    
+    const randomIndex = Math.floor(Math.random() * svgLetters.length);
+    const selectedLetter = svgLetters[randomIndex];
+
+    
+    const currentOpacity = selectedLetter.style.opacity === "1" ? "0" : "1";
+    selectedLetter.style.opacity = currentOpacity;
+}
+
+
+setInterval(toggleSingleLetter, 100);
+
+  </script>
 </html>
